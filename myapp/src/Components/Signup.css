@@ -1,0 +1,12 @@
+.signup-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.signup-form {
+    color: white;
+}

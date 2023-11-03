@@ -1,0 +1,24 @@
+/* @keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 50px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.nav-link{
+  color: black;
+  padding: 1rem;
+}
+
+.nav-link:hover {
+  background: url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 1440 320\'%3E%3Cpath fill=\'%23ee7752\' fill-opacity=\'1\' d=\'M0,96L48,106.7C96,117,192,139,288,138.7C384,139,480,117,576,122.7C672,128,768,160,864,176C960,192,1056,192,1152,186.7C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z\'%3E%3C/path%3E%3C/svg%3E");
+  background-size: cover;
+  color: rgb(9, 9, 9);
+  animation: wave 3s ease infinite;
+} */
+
+
