@@ -17,8 +17,8 @@ function About(){
             <Container>
       <Row>
         <Col sm={8}>
-          <h1>Title</h1>
-          <p>Some text here...</p>
+          <h1>Mr. Sandadi Bharath</h1>
+          <p>Sandadi Bharath is the CEO of 'Eco Grow'</p>
         </Col>
         <Col sm={4}>
           <img src={image} alt="description" className="rounded-circle" style={{height:'25rem'}} />
@@ -32,8 +32,8 @@ function About(){
           <img src={image} alt="description" className="rounded-circle" style={{height:'25rem'}} />
         </Col>
         <Col sm={4}>
-          <h1>Title</h1>
-          <p>Some text here...</p>
+          <h1>Ms. Sowjanya Devi</h1>
+          <p>Sowjanya Devi is the Manager of 'Eco Groww'</p>
         </Col>
         
       </Row>
@@ -41,8 +41,8 @@ function About(){
 <hr />
       <Row>
         <Col sm={8}>
-          <h1>Title</h1>
-          <p>Some text here...</p>
+          <h1>Mr. Gokul Ravi</h1>
+          <p>Gokul Ravi is the Director of 'Eco Groww'</p>
         </Col>
         <Col sm={4}>
           <img src={image} alt="description" className="rounded-circle" style={{height:'25rem'}} />
@@ -56,8 +56,8 @@ function About(){
           <img src={image} alt="description" className="rounded-circle" style={{height:'25rem'}} />
         </Col>
         <Col sm={4}>
-          <h1>Title</h1>
-          <p>Some text here...</p>
+          <h1>Mr. Manikanta</h1>
+          <p>Manikanta is the Director of 'Eco Groww'</p>
         </Col>
         
       </Row>

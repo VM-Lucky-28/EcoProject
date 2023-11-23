@@ -133,23 +133,35 @@
 import React, { useState } from 'react';
 import NavigationBar from './Components/Navbar';
 import LoginPage from './Components/LoginPage';
+// import Button from './Components/Button';
+import Farmer from './Components/Farmer';
 import SignupPage from './Components/Signup';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
 import About from './Components/Aboutus';
+import Services from './Components/Services';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Services from './Components/APIServices';
+import FormPage from './Components/Form';
 
 function App() {
-  return (
+  return (   
     <Router>
       <div className="App">
         <NavigationBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/loginpage" element={<LoginPage />} />
+          
+          {/* <Route path="/button" element={<Button/>} />  */}
+          <Route path="/farmer" element={<Farmer/>} />
           <Route path="/signup" element={<SignupPage />} />
+          <Route path="/loginpage" element={<LoginPage/>}/>
           <Route path="/about" element={<About />} />
-          {/* <Route path="/services" element={<Services />} /> */}
+          <Route path="/services" element={<Services />} />
+          {/* <Route path='/signup' element={<SignupPage />} /> */}
+          {/* <Route path="/services" element={<APIServices />} /> */}
+          <Route path="/formpage" element={<FormPage/>} />
+          
         </Routes>
         <Footer />
       </div>

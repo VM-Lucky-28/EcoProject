@@ -80,7 +80,7 @@ import './Navbar.css'
 
 const NavigationBar = () => {
     return (
-        
+        <nav>
         <Navbar bg="white" variant="dark" expand="lg">
             <Navbar.Brand as={Link} to="/" style={{fontSize:'2rem', fontFamily:'fantasy', background:'white', borderRadius:'5rem'}}>
                 <Logo style={{ width: '5rem', height: '2rem',}} />
@@ -96,6 +96,7 @@ const NavigationBar = () => {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
+        </nav>
         
     );
 };
